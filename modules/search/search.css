@@ -1,0 +1,88 @@
+#search_header {
+  display: flex;
+  background-color: #f9fafd;
+  align-items: center;
+  height: 1.3768115942028987rem;
+  width: 100%;
+}
+#search_header b {
+  margin: 0 3% 0 2%;
+  width: 1.3768115942028987rem;
+  height: 100%;
+  background: url(../../images/searchjian.png) no-repeat 10% center;
+  background-size: 55%;
+}
+#search_header .search_form {
+  width: 85%;
+}
+#search_header .search_form .search_tex {
+  width: 77%;
+  font-size: 0.43478260869565216rem;
+  background: #f9fafd url(../../images/a1.png) no-repeat 3% center;
+  background-size: 0.36231884057971014rem;
+  height: 0.857487922705314rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  text-indent: 0.8454106280193237rem;
+  outline: none;
+}
+#search_header .search_form .search_but {
+  border: none;
+  font-size: 0.43478260869565216rem;
+  background: #f9fafd;
+  color: #777;
+  outline: none;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#search_main {
+  width: 100%;
+}
+#search_main .search_hot {
+  padding: 0.7729468599033816rem 0 1.2318840579710146rem 0.4589371980676329rem;
+}
+#search_main .search_hot p {
+  color: #888;
+}
+#search_main .search_hot ul {
+  width: 100%;
+}
+#search_main .search_hot ul li {
+  float: left;
+  padding: 0.24154589371980678rem 0.4589371980676329rem;
+  margin: 0.1932367149758454rem 0.3140096618357488rem 0.12077294685990339rem 0;
+  background: #fff;
+  border-radius: 55px;
+}
+#search_main .search_record {
+  padding: 0.7729468599033816rem 0 1.2318840579710146rem 0.4589371980676329rem;
+}
+#search_main .search_record p {
+  color: #888;
+}
+#search_main .search_record ul {
+  width: 100%;
+}
+#search_main .search_record ul li {
+  float: left;
+  padding: 0.24154589371980678rem 0.4589371980676329rem;
+  margin: 0.1932367149758454rem 0.3140096618357488rem 0.12077294685990339rem 0;
+  background: #fff;
+  border-radius: 55px;
+}
+#search_clear {
+  width: 100%;
+  height: 1.3043478260869565rem;
+}
+#search_clear p {
+  width: 60%;
+  height: 1.3043478260869565rem;
+  line-height: 1.3043478260869565rem;
+  margin: 0 auto;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}

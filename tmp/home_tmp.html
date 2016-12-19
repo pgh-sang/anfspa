@@ -1,0 +1,106 @@
+<script type="text/html" id="home_tmp">
+<div class="bor"></div>
+	<nav id="home_nav">
+			<ul>
+			<%for(var i in da[1].act_rows){%>
+				<li>
+				<a href="#crazy">
+					<img src="<%=da[1].act_rows[i].activity.topimg%>">
+					<p><%=da[1].act_rows[i].activity.name%></p>
+				</a>
+				</li>
+			<%}%>
+			</ul>
+		</nav>
+<div class="bor"></div>
+	<div class="black_t">
+			<ul>
+				<li><img src="images/a6.jpg"></li>
+				<li><img src="images/a7.jpg"></li>
+				<li><img src="images/a8.jpg"></li>
+			</ul>
+		</div>
+<div class="bor"></div>
+		<div id="shop">
+			<div class="shop_logo"><img src="images/a9.png"></div>
+			<ul class="shop_hot">
+				<li>
+					<img src="images/2016092417282359.jpg">
+				</li>
+				<li>
+					<img src="images/2016092417285271.jpg">
+				</li>
+			</ul>
+
+			<ul class="shop_you">
+			<!-- <%for(var i in )%> -->
+				<li>
+					<img src="images/a10.png">
+					<p>优选水果</p>
+				</li>
+				<li>
+					<img src="images/a11.png">
+					<p>牛奶面包</p>
+				</li>
+				<li>
+					<img src="images/a12.png">
+					<p>饮料酒水</p>
+				</li>
+				<li>
+					<img src="images/a13.png">
+					<p>更多</p>
+				</li>
+			</ul>
+			<ul class="shop_bei">
+				<li><img src="images/a13.jpg"></li>
+				<li><img src="images/a14.jpg"></li>
+				<li><img src="images/a17.jpg"></li>
+				<li><img src="images/a18.png"></li>
+			</ul>
+		</div>
+		<div class="bor"></div> 
+
+		
+		<%for(var q in da[5].act_rows){%>
+			<div class="cont">
+				<div class="bt">
+					<span class="drink_bor"><%=da[5].act_rows[q].category_detail.name%></span>
+					<a href="###">更多</a>
+				</div>
+				<div class="cont_img">
+					<img src="<%=da[5].act_rows[q].activity.img%>">
+				</div>
+				<ul class="cont_ul">
+					<%for(var w in da[5].act_rows[q].category_detail.goods){%>
+					<li>
+						<div class="up">
+							<img src="<%=da[5].act_rows[q].category_detail.goods[w].img%>">
+						</div>
+						<div class="down">
+							<p class="down_one"><%=da[5].act_rows[q].category_detail.goods[w].name%></p>
+							<p class="down_two">
+								<span>精选</span>
+								<%if(da[5].act_rows[q].category_detail.goods[w].pm_desc!=""){%>
+										<a href="###"><%=da[5].act_rows[q].category_detail.goods[w].pm_desc%></a>
+								<%}%>
+							</p>
+							<p class="down_three"><%=da[5].act_rows[q].category_detail.goods[w].specifics%></p>
+							<p class="down_four"><span>￥<%=da[5].act_rows[q].category_detail.goods[w].market_price%></span>
+							
+							<%if(da[5].act_rows[q].category_detail.goods[w].market_price != da[5].act_rows[q].category_detail.goods[w].partner_price){%>
+									<a href="##"><%=da[5].act_rows[q].category_detail.goods[w].partner_price%></a>
+							<%}%>
+							</p>
+							<b class="home_b"></b>
+						</div>
+					</li>
+				<%}%>
+				</ul>
+			</div>
+		<%}%>
+
+		
+		<div style="height: 62px">
+			
+		</div>
+</script>

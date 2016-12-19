@@ -1,0 +1,273 @@
+.bor {
+  height: 0.3140096618357488rem;
+  width: 100%;
+  background: #e0e0e0;
+}
+#crazy_header {
+  display: flex;
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  background-color: #f9fafd;
+  align-items: center;
+  height: 1.3768115942028987rem;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+}
+#crazy_header b {
+  margin: 0 25% 0 2%;
+  width: 1.3768115942028987rem;
+  height: 100%;
+  background: url(../../images/searchjian.png) no-repeat 10% center;
+  background-size: 55%;
+}
+#crazy_header p {
+  font-weight: bold;
+  font-size: 0.4589371980676329rem;
+  width: 45%;
+}
+#crazy_header span {
+  height: 100%;
+  width: 1.4009661835748792rem;
+  background: url(../../images/indentzhuan.png) no-repeat center;
+  background-size: 55%;
+}
+#crazy_main {
+  margin: 1.3768115942028987rem 0 0 0;
+  width: 100%;
+}
+#crazy_main img {
+  width: 100%;
+}
+#crazy_time {
+  width: 100%;
+}
+#crazy_time .crazy_time_ul {
+  display: flex;
+  background-color: #272c2a;
+}
+#crazy_time .crazy_time_ul li {
+  font-size: 0.4106280193236715rem;
+  width: 25%;
+  height: 2.1980676328502415rem;
+  text-align: center;
+  color: #fff;
+  border-right: 1px solid #fff;
+  padding: 0.1570048309178744rem 0 0 0;
+}
+#crazy_time .crazy_time_ul li time {
+  display: block;
+  width: 100%;
+  height: 0.6280193236714976rem;
+  line-height: 0.6280193236714976rem;
+  font-size: 0.4589371980676329rem;
+}
+#crazy_time .crazy_time_ul li p {
+  width: 100%;
+  height: 0.6280193236714976rem;
+  line-height: 0.6280193236714976rem;
+}
+#crazy_time .crazy_time_ul li .time_con {
+  display: flex;
+}
+#crazy_time .crazy_time_ul li .time_con span {
+  margin: auto;
+  width: 0.3864734299516908rem;
+  height: 0.3864734299516908rem;
+  background: url(../../images/crazyabc.png) no-repeat;
+  background-position: right center;
+  background-size: cover;
+}
+#crazy_time .crazy_time_ul li:nth-of-type(3) {
+  background-color: #fdd000;
+  color: #000;
+}
+#crazy_time .crazy_time_ul li:nth-of-type(3) span {
+  background: #fdd000 url(../../images/crazyabc.png) no-repeat;
+  background-size: cover;
+}
+#crazy_time .time_down {
+  height: 1.0869565217391304rem;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+#crazy_time .time_down .time_down_op {
+  height: 100%;
+  background: #fdd000;
+  width: 30%;
+  color: #fff;
+}
+#crazy_time .time_down .time_down_op span {
+  display: block;
+  height: 0.43478260869565216rem;
+  font-size: 0.33816425120772947rem;
+  margin: 0 0 0 8%;
+}
+#crazy_time .time_down .time_down_op time {
+  display: block;
+  margin: 0 0 0 8%;
+}
+#crazy_time .time_down .time_bor {
+  position: absolute;
+  left: 30%;
+  height: 0;
+  width: 0;
+  border-left: 22px solid #fdd000;
+  border-right: 22px solid transparent;
+  border-bottom: 22px solid transparent;
+  border-top: 22px solid transparent;
+}
+#crazy_time .time_down .time_down_tp {
+  font-size: 0.36231884057971014rem;
+  height: 0.6763285024154589rem;
+  width: 2.7536231884057973rem;
+  background: #272c2a;
+  color: #fff;
+  text-align: center;
+  line-height: 0.6763285024154589rem;
+  border-radius: 15px;
+  margin: 0 5% 0 0;
+}
+#crazy_hot {
+  width: 100%;
+}
+#crazy_hot .crazy_hot_up {
+  display: flex;
+  border-bottom: 5px solid #e0e0e0;
+}
+#crazy_hot .crazy_hot_up li {
+  width: 50%;
+  height: 4.710144927536232rem;
+}
+#crazy_hot .crazy_hot_up .crazy_hot_lio img {
+  width: 100%;
+  border-right: 2px solid #e0e0e0;
+  height: 100%;
+}
+#crazy_hot .crazy_hot_up .crazy_hot_lit {
+  padding: 0.4106280193236715rem 0 0 0.4106280193236715rem;
+}
+#crazy_hot .crazy_hot_up .crazy_hot_lit .hot_p1 {
+  height: 0.7729468599033816rem;
+  line-height: 0.7729468599033816rem;
+  font-size: 0.43478260869565216rem;
+}
+#crazy_hot .crazy_hot_up .crazy_hot_lit .hot_p2 {
+  height: 1.2077294685990339rem;
+  line-height: 1.2077294685990339rem;
+}
+#crazy_hot .crazy_hot_up .crazy_hot_lit .hot_p2 b {
+  font-size: 0.7246376811594203rem;
+  color: #ff602c;
+}
+#crazy_hot .crazy_hot_up .crazy_hot_lit .hot_p2 span {
+  color: #979697;
+}
+#crazy_hot .crazy_hot_up .crazy_hot_lit .hot_p3 {
+  height: 0.9420289855072465rem;
+  line-height: 0.9420289855072465rem;
+  text-align: center;
+  width: 3.502415458937198rem;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #ff602c;
+}
+.crazy_buy {
+  height: 0.9661835748792271rem;
+  width: 100%;
+  background: #efefef;
+  border-bottom: 4px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+}
+.crazy_buy span {
+  margin: auto;
+  border-left: 4px solid #fdd000;
+  font-size: 0.4106280193236715rem;
+  text-indent: 0.0966183574879227rem;
+}
+#crazy_kill {
+  width: 100%;
+  background: #efefef;
+  padding: 0.24154589371980678rem;
+}
+#crazy_kill .crazy_kill_ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#crazy_kill .crazy_kill_ul li {
+  border-bottom: 8px solid #efefef;
+  width: 49%;
+  background: #fff;
+  position: relative;
+}
+#crazy_kill .crazy_kill_ul li:nth-of-type(2n+1) {
+  border-right: 4px solid #efefef;
+}
+#crazy_kill .crazy_kill_ul li img {
+  width: 100%;
+}
+#crazy_kill .crazy_kill_ul li p {
+  height: 0.6038647342995169rem;
+  margin-left: 3%;
+}
+#crazy_kill .crazy_kill_ul li .crazy_kill_p {
+  height: 0.7246376811594203rem;
+}
+#crazy_kill .crazy_kill_ul li .crazy_kill_p span {
+  color: #fc1400;
+}
+#crazy_kill .crazy_kill_ul li .crazy_kill_p b {
+  color: #929292;
+}
+#crazy_kill .crazy_kill_ul li .crazy_span {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 0.7729468599033816rem;
+  height: 0.7729468599033816rem;
+  border-radius: 50%;
+  color: #fc1400;
+  border: 1px solid #e0e0e0;
+  line-height: 0.7729468599033816rem;
+  text-align: center;
+  font-size: 0.48309178743961356rem;
+}
+#crazy_foot {
+  background: #efefef;
+}
+#crazy_foot p {
+  height: 0.9661835748792271rem;
+  width: 100%;
+  background: #efefef;
+  border-bottom: 4px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+}
+#crazy_foot p span {
+  margin: auto;
+  border-left: 4px solid #fdd000;
+  font-size: 0.4106280193236715rem;
+  text-indent: 0.0966183574879227rem;
+}
+#crazy_foot ul {
+  padding: 0.48309178743961356rem 1.2560386473429952rem 0.48309178743961356rem 1.2560386473429952rem;
+  font-size: 0.33816425120772947rem;
+}
+.crazy_car {
+  position: fixed;
+  bottom: 10%;
+  right: 2%;
+  background: url(../../images/carlogo.png);
+  width: 1.8357487922705316rem;
+  height: 1.8357487922705316rem;
+  background-size: 100%;
+  background-color: #ffd600;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}

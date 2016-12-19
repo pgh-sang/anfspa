@@ -1,0 +1,26 @@
+<script type="text/html" id="shop_tmp">
+	<ul>
+		<%for(var i in sh){%>
+			<li>
+				<div class="shop_up">
+					<img src="<%=sh[i].img%>">
+				</div>
+				<div class="shop_down">
+						<p class="shop_down_one"><%=sh[i].name%></p>
+						<p class="shop_down_two"><span>精选</span></p>
+						<p class="shop_down_three"><span><%=sh[i].specifics%></span></p>
+						<p class="shop_down_four"><span>￥10.5</span>
+						<%if(sh[i].market_price != sh[i].partner_price){%>
+							<a href="###"><%=sh[i].partner_price%></a>
+						<%}%>
+						</p>
+						<div class="shop_tab_mon">
+							<span class="shop_s1"></span>
+							<span class="shop_s2">0</span>
+							<span class="shop_s3"></span>
+						</div>
+				</div>
+			</li>
+		<%}%>
+	</ul>
+</script>

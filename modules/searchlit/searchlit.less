@@ -1,0 +1,103 @@
+.f(){
+	display: flex;
+}
+.bor{
+	height: 13px;
+	width: 100%;
+	background: #e0e0e0;
+}
+#searchlit_header{
+	.f();
+	background-color: #f9fafd;
+	align-items:center;
+	height: 57px;
+	width: 100%;
+	b{
+		margin: 0 3% 0 2%;
+		width: 57px;
+		height: 100%;
+		background: url(../images/searchjian.png) no-repeat 10% center;
+		background-size: 55%;
+	}
+	.searchlit_form{
+		width: 85%;
+		.searchlit_tex{
+			width: 77%;
+			font-size: 18px;
+			background: #f9fafd url(../images/a1.png) no-repeat 3% center;
+			background-size: 15px;
+			height: 35.5px;
+			border:1px solid #e0e0e0;
+			border-radius: 5px;
+			text-indent: 35px;
+			outline: none;
+		}
+		.searchlit_but{
+			border: none;
+			font-size: 18px;
+			background: #f9fafd;
+			color: #777;
+			outline: none;
+		}
+	}
+}
+#searchlit_kill{
+	width: 100%;
+	background: #efefef;
+	padding: 10px;
+	.searchlit_kill_ul{
+		width: 100%;
+		.f();
+		flex-wrap:wrap;
+		li{
+			border-bottom: 8px solid #efefef;	
+			width: 49%;
+			background: #fff;
+			position: relative;
+			&:nth-of-type(2n+1){
+				border-right: 4px solid #efefef;
+			}
+			img{
+			width: 100%;
+			}
+			p{
+				height: 25px;
+				margin-left: 3%;
+			}
+			.searchlit_kill_p{
+				height: 30px;
+				span{
+					 color: #fc1400;
+				}
+				b{
+					    color: #929292;
+				}
+			}
+			.searchlit_span{
+				position: absolute;
+				bottom: 5%;
+				right: 5%;
+				width: 32px;
+				height: 32px;
+				border-radius: 50%;
+				 color: #fc1400;
+				 border: 1px solid #e0e0e0;
+				 line-height: 32px;
+				 text-align: center;
+				 font-size: 20px;
+			}
+		}
+	}
+}
+.searchlit_car{
+	position: fixed;
+	bottom: 1%;
+	right: 2%;
+	background: url(../images/carlogo.png);
+	width: 76px;
+	height: 76px;
+	background-size: 100%;
+	    background-color: #ffd600;
+	    border: 2px solid #fff;
+	    border-radius: 50%;
+}

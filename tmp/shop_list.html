@@ -1,0 +1,12 @@
+<script type="text/html" id="shop_list">
+	<ul>
+		<%for(var i in data.data.categories){%>
+			<li data-id="<%=data.data.categories[i].id%>"><%=data.data.categories[i].name%>
+				<%if(i==1){%>
+					<img src="images/20160815105444_045320.jpg">
+				<%}%>
+				<i></i>
+			</li>
+		<%}%>
+	</ul>
+</script>

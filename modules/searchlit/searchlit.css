@@ -1,0 +1,100 @@
+.bor {
+  height: 0.3140096618357488rem;
+  width: 100%;
+  background: #e0e0e0;
+}
+#searchlit_header {
+  display: flex;
+  background-color: #f9fafd;
+  align-items: center;
+  height: 1.3768115942028987rem;
+  width: 100%;
+}
+#searchlit_header b {
+  margin: 0 3% 0 2%;
+  width: 1.3768115942028987rem;
+  height: 100%;
+  background: url(../../images/searchjian.png) no-repeat 10% center;
+  background-size: 55%;
+}
+#searchlit_header .searchlit_form {
+  width: 85%;
+}
+#searchlit_header .searchlit_form .searchlit_tex {
+  width: 77%;
+  font-size: 0.43478260869565216rem;
+  background: #f9fafd url(../../images/a1.png) no-repeat 3% center;
+  background-size: 0.36231884057971014rem;
+  height: 0.857487922705314rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  text-indent: 0.8454106280193237rem;
+  outline: none;
+}
+#searchlit_header .searchlit_form .searchlit_but {
+  border: none;
+  font-size: 0.43478260869565216rem;
+  background: #f9fafd;
+  color: #777;
+  outline: none;
+}
+#searchlit_kill {
+  width: 100%;
+  background: #efefef;
+  padding: 0.24154589371980678rem;
+}
+#searchlit_kill .searchlit_kill_ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#searchlit_kill .searchlit_kill_ul li {
+  border-bottom: 8px solid #efefef;
+  width: 49%;
+  background: #fff;
+  position: relative;
+}
+#searchlit_kill .searchlit_kill_ul li:nth-of-type(2n+1) {
+  border-right: 4px solid #efefef;
+}
+#searchlit_kill .searchlit_kill_ul li img {
+  width: 100%;
+}
+#searchlit_kill .searchlit_kill_ul li p {
+  height: 0.6038647342995169rem;
+  margin-left: 3%;
+}
+#searchlit_kill .searchlit_kill_ul li .searchlit_kill_p {
+  height: 0.7246376811594203rem;
+}
+#searchlit_kill .searchlit_kill_ul li .searchlit_kill_p span {
+  color: #fc1400;
+}
+#searchlit_kill .searchlit_kill_ul li .searchlit_kill_p b {
+  color: #929292;
+}
+#searchlit_kill .searchlit_kill_ul li .searchlit_span {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 0.7729468599033816rem;
+  height: 0.7729468599033816rem;
+  border-radius: 50%;
+  color: #fc1400;
+  border: 1px solid #e0e0e0;
+  line-height: 0.7729468599033816rem;
+  text-align: center;
+  font-size: 0.48309178743961356rem;
+}
+.searchlit_car {
+  position: fixed;
+  bottom: 10%;
+  right: 2%;
+  background: url(../../images/carlogo.png);
+  width: 1.8357487922705316rem;
+  height: 1.8357487922705316rem;
+  background-size: 100%;
+  background-color: #ffd600;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}

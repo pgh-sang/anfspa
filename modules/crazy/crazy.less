@@ -1,0 +1,271 @@
+.f(){
+	display: flex;
+}
+.bor{
+	height: 13px;
+	width: 100%;
+	background: #e0e0e0;
+}
+#crazy_header{
+	.f();
+	z-index: 9;
+	position:fixed;
+	top: 0;
+	background-color: #f9fafd;
+	align-items:center;
+	height: 57px;
+	width: 100%;
+	border-bottom:1px solid #e0e0e0; 
+	b{
+		margin: 0 25% 0 2%;
+		width: 57px;
+		height: 100%;
+		background: url(../images/searchjian.png) no-repeat 10% center;
+		background-size: 55%;
+	}
+	p{
+		font-weight: bold;
+		font-size: 19px;
+		width: 45%;
+	}
+	span{
+		height: 100%;
+		width: 58px;
+		background: url(../images/indentzhuan.png) no-repeat center;
+		background-size: 55%;
+	}
+}
+#crazy_main{
+	margin:57px 0 0 0;
+	width: 100%;
+	//height: 182px;
+	img{
+		width: 100%;
+	}
+}
+#crazy_time{
+	width: 100%;
+	.crazy_time_ul{
+		.f();
+		background-color: #272c2a;
+		li{
+			font-size: 17px;
+			width: 25%;
+			height: 91px;
+			text-align: center;
+			color: #fff;
+			border-right: 1px solid #fff;
+			padding: 6.5px 0 0 0;
+			
+			time{
+				display: block;
+				width: 100%;
+				height: 26px;
+				line-height: 26px;
+				font-size: 19px;
+			}
+			p{
+				width: 100%;
+				height: 26px;
+				line-height: 26px;
+			}
+			.time_con{
+				
+				.f();
+				span{
+					margin: auto;
+					width: 16px;
+					height: 16px;
+					background: url(../images/crazyabc.png) no-repeat;
+					background-position: right center;
+    				background-size: cover;
+				}
+			}
+			&:nth-of-type(3){
+				    background-color: #fdd000;
+					color: #000;
+				 span{
+				 background: #fdd000 url(../images/crazyabc.png) no-repeat;
+				 background-size: cover;
+				 }
+			}
+		}
+	}
+	.time_down{
+		height: 45px;
+		background: #f2f2f2;
+		.f();
+		align-items:center;
+		justify-content:space-between;
+		position: relative;
+		.time_down_op{
+			//flex-wrap:wrap;
+			height: 100%;
+			background:  #fdd000;
+			width: 30%;
+			color: #fff;
+			span{
+				display: block;
+				height: 18px;
+				font-size: 14px;
+				margin: 0 0 0 8%;
+			}
+			time{
+				display: block;
+				margin: 0 0 0 8%;
+			}
+		}
+		.time_bor{
+			position: absolute;
+			left:30%;
+			height: 0;
+			width:0;
+			border-left: 22px solid #fdd000;
+			border-right: 22px solid transparent;
+			border-bottom: 22px solid transparent;
+			border-top: 22px solid transparent;
+		}
+		.time_down_tp{
+			font-size: 15px;
+			height: 28px;
+			width: 114px;
+			background: #272c2a;
+			color: #fff;
+			text-align: center;
+			line-height: 28px;
+			border-radius: 15px;
+			margin: 0 5% 0 0;
+		}
+	}
+}
+#crazy_hot{
+	width: 100%;
+	.crazy_hot_up{
+		.f();
+		border-bottom: 5px solid #e0e0e0;
+		li{
+			width: 50%;
+			height: 195px;
+		}
+		.crazy_hot_lio{
+			img{
+				width: 100%;
+				border-right: 2px solid #e0e0e0;
+				height: 100%;
+			}
+		}
+		.crazy_hot_lit{
+			padding: 17px 0 0 17px;
+			.hot_p1{
+				height: 32px;
+				line-height: 32px;
+				font-size: 18px;
+			}
+			.hot_p2{
+				height: 50px;
+				line-height: 50px;
+				b{
+					font-size: 30px;
+				color: #ff602c;
+				}
+				span{
+					color: #979697;
+				}
+			}
+			.hot_p3{
+				height: 39px;
+				line-height: 39px;
+				text-align: center;
+				width: 145px;
+				border-radius: 20px;
+				color: #fff;
+				font-size: 20px;
+				background-color: #ff602c;
+			}
+		}
+	}
+}
+.crazy_buy{
+		height: 40px;
+		width: 100%;
+		background: #efefef;
+		border-bottom: 4px solid #e0e0e0;
+		.f();
+		align-items:center;
+		span{
+			margin: auto;
+			border-left: 4px solid #fdd000;
+			font-size: 17px;
+			text-indent: 4px;
+		}
+	}
+#crazy_kill{
+	width: 100%;
+	background: #efefef;
+	padding: 10px;
+	.crazy_kill_ul{
+		width: 100%;
+		.f();
+		flex-wrap:wrap;
+		li{
+			border-bottom: 8px solid #efefef;	
+			width: 49%;
+			background: #fff;
+			position: relative;
+			&:nth-of-type(2n+1){
+				border-right: 4px solid #efefef;
+			}
+			img{
+			width: 100%;
+			}
+			p{
+				height: 25px;
+				margin-left: 3%;
+			}
+			.crazy_kill_p{
+				height: 30px;
+				span{
+					 color: #fc1400;
+				}
+				b{
+					    color: #929292;
+				}
+			}
+			.crazy_span{
+				position: absolute;
+				bottom: 5%;
+				right: 5%;
+				width: 32px;
+				height: 32px;
+				border-radius: 50%;
+				 color: #fc1400;
+				 border: 1px solid #e0e0e0;
+				 line-height: 32px;
+				 text-align: center;
+				 font-size: 20px;
+			}
+		}
+	}
+}
+#crazy_foot{
+	background: #efefef;
+	p{
+		.crazy_buy;
+	}
+	ul{
+		padding: 20px 52px 20px 52px;
+		font-size: 14px;
+	}
+}
+.crazy_car{
+	position: fixed;
+	bottom: 1%;
+	right: 2%;
+	background: url(../images/carlogo.png);
+	width: 76px;
+	height: 76px;
+	background-size: 100%;
+	    background-color: #ffd600;
+	    border: 2px solid #fff;
+	    border-radius: 50%;
+}

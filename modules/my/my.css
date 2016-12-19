@@ -1,0 +1,210 @@
+.bor {
+  height: 0.3140096618357488rem;
+  width: 100%;
+  background: #e0e0e0;
+}
+#my_header {
+  width: 100%;
+  background: #ffd600;
+  position: fixed;
+  top: 0;
+}
+#my_header .my_header_up {
+  height: 3.140096618357488rem;
+  display: flex;
+  align-items: center;
+  background: url(../../images/tx.png) no-repeat 5% center;
+  background-size: 1.8599033816425121rem;
+}
+#my_header .my_header_up .my_user {
+  height: 2.5120772946859904rem;
+  position: absolute;
+  right: 0;
+  width: 7.1980676328502415rem;
+  background: url(../../images/yjt.png) no-repeat 90% center;
+  background-size: 0.3140096618357488rem;
+}
+#my_header .my_header_up .my_user .user_phone {
+  height: 0.4589371980676329rem;
+  margin: 0.3864734299516908rem 0;
+  color: #fff;
+  font-size: 0.48309178743961356rem;
+  font-weight: bold;
+}
+#my_header .my_header_up .my_user .user_vip {
+  height: 0.8695652173913043rem;
+  line-height: 0.8695652173913043rem;
+  text-indent: 0.9661835748792271rem;
+  font-weight: bold;
+  font-size: 0.2898550724637681rem;
+  color: #e64f1a;
+  background: url(../../images/logo.png) no-repeat;
+  background-size: auto 100%;
+}
+#my_header .my_header_down {
+  height: 1.0869565217391304rem;
+  background: #f3c800;
+  display: flex;
+  align-items: center;
+}
+#my_header .my_header_down a {
+  width: 50%;
+  text-indent: 22%;
+  color: #fff;
+}
+#my_header .my_header_down .my_fira {
+  border-right: 1px solid #fff;
+  background: url(../../images/dsf.png) no-repeat 30% center;
+  background-size: auto 0.5797101449275363rem;
+}
+#my_header .my_header_down .my_sena {
+  background: url(../../images/fghh.png) no-repeat 30% center;
+  background-size: auto 0.5797101449275363rem;
+}
+#my_nav {
+  width: 100%;
+}
+#my_nav .my_dd {
+  height: 1.570048309178744rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+#my_nav .my_dd a {
+  width: 50%;
+}
+#my_nav .my_dd .my_dd_sena {
+  text-indent: 16%;
+  color: #999;
+  font-size: 0.43478260869565216rem;
+  background: url(../../images/jian.png) no-repeat 105% center;
+  background-size: 0.7246376811594203rem;
+}
+#my_nav .my_dd .my_dd_fira {
+  text-indent: 5%;
+}
+#my_nav .my_mon {
+  display: flex;
+}
+#my_nav .my_mon li {
+  width: 25%;
+  position: relative;
+}
+#my_nav .my_mon li div {
+  display: flex;
+  width: 100%;
+  height: 1.3285024154589373rem;
+  position: relative;
+}
+#my_nav .my_mon li div img {
+  width: 23%;
+  margin: auto;
+  position: absolute;
+  bottom: 3%;
+  left: 37%;
+}
+#my_nav .my_mon li p {
+  height: 0.9178743961352658rem;
+  line-height: 0.9178743961352658rem;
+  text-align: center;
+}
+#my_j_g {
+  width: 100%;
+}
+#my_j_g .my_jg_up {
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+}
+#my_j_g .my_jg_up li {
+  width: 25%;
+}
+#my_j_g .my_jg_up li div {
+  width: 100%;
+  height: 1.884057971014493rem;
+  position: relative;
+  display: flex;
+}
+#my_j_g .my_jg_up li div img {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  bottom: 6%;
+  left: 30%;
+}
+#my_j_g .my_jg_up li p {
+  text-align: center;
+  height: 0.5555555555555556rem;
+  margin: 0 0 0.6038647342995169rem 0;
+}
+#my_j_g .my_jg_down {
+  width: 100%;
+  border-bottom: 39px solid #e0e0e0;
+  display: flex;
+}
+#my_j_g .my_jg_down li {
+  width: 25%;
+}
+#my_j_g .my_jg_down li div {
+  width: 100%;
+  height: 1.884057971014493rem;
+  position: relative;
+  display: flex;
+}
+#my_j_g .my_jg_down li div img {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  bottom: 6%;
+  left: 30%;
+}
+#my_j_g .my_jg_down li p {
+  text-align: center;
+  height: 0.5555555555555556rem;
+  margin: 0 0 0.6038647342995169rem 0;
+}
+#my_esc {
+  height: 1.4009661835748792rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#my_esc p {
+  width: 100%;
+  text-align: center;
+  font-size: 0.4589371980676329rem;
+}
+#my_footer {
+  background-color: rgba(246, 246, 246, 0.95);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+#my_footer ul {
+  width: 100%;
+  display: flex;
+}
+#my_footer ul li {
+  width: 25%;
+  height: 1.497584541062802rem;
+  text-align: center;
+}
+#my_footer ul li div {
+  display: flex;
+  height: 0.8695652173913043rem;
+}
+#my_footer ul li div img {
+  width: 0.6038647342995169rem;
+  height: 0.6038647342995169rem;
+  margin: auto;
+}
+#my_footer ul li p {
+  font-size: 0.33816425120772947rem;
+  color: #777;
+}
+#my_main {
+  margin: 4.2270531400966185rem 0 0 0;
+  height: 12.077294685990339rem;
+  overflow-y: scroll;
+  background: #fff;
+}
